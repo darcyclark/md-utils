@@ -1,6 +1,7 @@
 var Finder = require('fs-finder')
     , fs = require('fs')
     , path = require('path')
+    , yaml = require('front-matter')
     , util = require('util')
     , jade = require('jade')
     , _ = require('underscore')
